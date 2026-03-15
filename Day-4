@@ -1,0 +1,20 @@
+print("=" * 40)
+print("      STUDENT INFORMATION FORM")
+print("=" * 40)
+ 
+# Collect student information
+name   = input("\nEnter Student Name : ")
+age    = input("Enter Age          : ")
+city   = input("Enter City         : ")
+course = input("Enter Course       : ")
+ 
+# Display the entered information
+print("\n" + "=" * 40)
+print("      STUDENT INFORMATION")
+print("=" * 40)
+print(f"  Name   : {name}")
+print(f"  Age    : {age}")
+print(f"  City   : {city}")
+print(f"  Course : {course}")
+print("=" * 40)
+ 
